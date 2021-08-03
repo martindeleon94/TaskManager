@@ -12,6 +12,7 @@ export const ProjectList = () => {
   //Obtener
   useEffect(() => {
     getProjects();
+    // eslint-disable-next-line
   }, []);
 
   //checks if projects has content
